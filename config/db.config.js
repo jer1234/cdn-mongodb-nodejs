@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 module.exports = {
-    url: "mongodb://localhost:27017/cdn_db"
-  };
+    url: process.env.MONGO_DB_URL
+};
