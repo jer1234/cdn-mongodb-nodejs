@@ -35,11 +35,11 @@ To install and run this Node.js API project locally, follow these steps:
 2. Navigate to the project directory: `cd cdn-mongodb-nodejs`
 3. Install dependencies: `npm install`
 4. Configure the API to connect to your MongoDB database:
-   - Rename the `.env.example` file to `.env`.
+   - Create `.env` in your root directory.
    - Open the `.env` file and create & update :
-     -`MONGO_DB_URL= ` variable with your MongoDB connection string.
-     -`PORT=` variable with your preferred port.  
-   - 
+       - `MONGO_DB_URL= ` variable with your MongoDB connection string.
+       - `PORT=` variable with your preferred port.  
+    
 5. Start the API server: `node server.js`
 6. The API should now be running on `http://localhost:{PORT}`.
 
