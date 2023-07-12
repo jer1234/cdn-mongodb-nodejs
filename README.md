@@ -55,10 +55,10 @@ Once the API server is running, you can perform the following actions:
 The following endpoints are available in this Node.js API:
 
 - `GET /api/user`: Retrieve a list of users.
-- `GET /api/user/:id`: Retrieve a specific user by username.
+- `GET /api/user/:username`: Retrieve a specific user by username.
 - `POST /api/user`: Create a new user.
-- `PUT /api/user/:id`: Update an existing user by username.
-- `DELETE /api/user/:id`: Delete a user by username.
+- `PUT /api/user/:username`: Update an existing user by username.
+- `DELETE /api/user/:username`: Delete a user by username.
 
 For each endpoint, you can find detailed information about the request and response format in the source code.
 
