@@ -122,32 +122,3 @@ exports.delete = async (req, res) => {
       });
   };
 
-// // Delete all Users from the database.
-// exports.deleteAll = (req, res) => {
-//     User.deleteMany({})
-//       .then(data => {
-//         res.send({
-//           message: `${data.deletedCount} Users were deleted successfully!`
-//         });
-//       })
-//       .catch(err => {
-//         res.status(500).send({
-//           message:
-//             err.message || "Some error occurred while removing all Users."
-//         });
-//       });
-//   };
-
-// // Find all published Users
-// exports.findAllPublished = (req, res) => {
-//     User.find({ published: true })
-//       .then(data => {
-//         res.send(data);
-//       })
-//       .catch(err => {
-//         res.status(500).send({
-//           message:
-//             err.message || "Some error occurred while retrieving Users."
-//         });
-//       });
-//   };
